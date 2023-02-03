@@ -1,0 +1,6 @@
+---
+replicaCount: 1
+image:
+  repository: your-dockerhub-username/your-repository-name
+  tag: latest
+
