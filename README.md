@@ -1,4 +1,4 @@
-# Running the Flask application in Minikube
+# Running the redkube application in Minikube
 
 This guide provides instructions for running a Flask application in Minikube.
 
