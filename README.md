@@ -1,1 +1,1 @@
-# redkube
+# Running the Flask application in Minikube
