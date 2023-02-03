@@ -10,7 +10,8 @@ This guide provides instructions for running a Flask application in Minikube.
 
 #Steps
 
-1. Start Minikube:```    
+1. Start Minikube:
+```    
              minikube start
 ```
 
