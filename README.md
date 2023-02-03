@@ -11,9 +11,7 @@ This guide provides instructions for running a Flask application in Minikube.
 #Steps
 
 1. Start Minikube:
-```
-minikube start
-
+```minikube start
 ```
 
 
