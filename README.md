@@ -33,6 +33,8 @@ This guide provides instructions for running a Flask application in Minikube.
     minikube service <release-name>
 ```
 
+# Conclusion
 
+  This guide has provided the steps to run a Flask application in Minikube using Helm. The specific commands and names in this guide may vary based on the              specifics of your Flask application and your Minikube setup. 
 
 
