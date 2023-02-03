@@ -15,7 +15,6 @@ This guide provides instructions for running a Flask application in Minikube.
       minikube start
 ```
 2. Initialize Helm:
-
 ```    
       helm init
 ```
