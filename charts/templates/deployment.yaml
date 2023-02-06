@@ -2,9 +2,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "your-app-name.fullname" . }}
+  name: red-kube
   labels:
-    name: {{ include "your-app-name.name" . }}
+    name: red-kube
     instance: {{ .Release.Name }}   
 spec:
   replicas: {{ .Values.replicaCount }}
