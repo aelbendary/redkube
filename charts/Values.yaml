@@ -1,6 +1,6 @@
 ---
 replicaCount: 1
 image:
-  repository: your-dockerhub-username/your-repository-name
+  repository: aelbendary/red-kube
   tag: latest
 
