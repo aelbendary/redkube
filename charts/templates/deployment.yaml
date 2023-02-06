@@ -2,20 +2,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: red-kube
+  name: {{ .Chart.Name }}
   labels:
-    name: red-kube
+    name: {{ .Chart.Name }}
     instance: {{ .Release.Name }}   
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      name: {{ include "your-app-name.name" . }}
+      name: {{ .Chart.Name }}
       instance: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        name: {{ include "your-app-name.name" . }}
+        name: {{ .Chart.Name }}
         instance: {{ .Release.Name }}
     spec:
       containers:
